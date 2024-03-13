@@ -80,17 +80,17 @@ public class Main {
 
         // zadanie 2
 
-        int [] zarplataTwo = {11000, 13000, 4000, 12000, 21000};
+        int [] taskTwo = {11000, 13000, 4000, 12000, 21000};
         int minСost = 99999;
         int maxСost = -1;
-        for (int q = 0; q < zarplataTwo.length; q++) {
-         if (zarplataTwo[q] < minСost) {
-             minСost = zarplataTwo[q];
+        for (int q = 0; q < taskTwo.length; q++) {
+         if (taskTwo[q] < minСost) {
+             minСost = taskTwo[q];
          }
         }
-        for (int q = 0; q < zarplataTwo.length; q++) {
-            if (zarplataTwo[q] > maxСost) {
-                maxСost = zarplataTwo[q];
+        for (int q = 0; q < taskTwo.length; q++) {
+            if (taskTwo[q] > maxСost) {
+                maxСost = taskTwo[q];
             }
         }
 
