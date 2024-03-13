@@ -71,39 +71,40 @@ public class Main {
 
         // chast 2 zadanie 1
 
-        int [] zarplata = {12000, 10000, 5000, 13000, 21000};
+        int [] taskThree = {12000, 10000, 5000, 13000, 21000};
         int sum = 0;
-        for (int i = 0; i < zarplata.length; i++){
-            sum = sum + zarplata[i];
+        for (int i = 0; i < taskThree.length; i++){
+            sum = sum + taskThree[i];
         }
         System.out.println("Сумма трат за месяц составила " + sum + " рублей.");
 
         // zadanie 2
+
         int [] zarplataTwo = {11000, 13000, 4000, 12000, 21000};
-        int minZatrata = 99999;
-        int maxZatrata = -1;
+        int minСost = 99999;
+        int maxСost = -1;
         for (int q = 0; q < zarplataTwo.length; q++) {
-         if (zarplataTwo[q] < minZatrata) {
-            minZatrata = zarplataTwo[q];
+         if (zarplataTwo[q] < minСost) {
+             minСost = zarplataTwo[q];
          }
         }
         for (int q = 0; q < zarplataTwo.length; q++) {
-            if (zarplataTwo[q] > maxZatrata) {
-                maxZatrata = zarplataTwo[q];
+            if (zarplataTwo[q] > maxСost) {
+                maxСost = zarplataTwo[q];
             }
         }
 
-        System.out.println("Минимальная сумма трат за неделю составила " + minZatrata + " рублей. Максимальная сумма тра за неделю " + maxZatrata + " рублей.");
+        System.out.println("Минимальная сумма трат за неделю составила " + minСost + " рублей. Максимальная сумма тра за неделю " + maxСost + " рублей.");
 
         // zadanie 3
-        int [] trati = {10000, 15000, 14432, 14992, 10974};
-        float sredneeZnachenie = 0;
-        for (int i = 0; i < trati.length; i++){
-            sredneeZnachenie = trati[i]  + sredneeZnachenie;
-            sredneeZnachenie = sredneeZnachenie / 5;
+        int [] taskOne = {10000, 15000, 14432, 14992, 10974};
+        float averageValue = 0;
+        for (int i = 0; i < taskOne.length; i++){
+            averageValue = taskOne[i]  + averageValue;
+            averageValue = averageValue / 5;
 
         }
-        System.out.println("Средняя сумма трат замесяц составила " + sredneeZnachenie + " рублей.");
+        System.out.println("Средняя сумма трат замесяц составила " + averageValue + " рублей.");
 
         // zadanie 4
         char[] a = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
